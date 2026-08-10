@@ -73,40 +73,66 @@ original was missing.
 
 ## 📸 Screenshots
 
-<div align="center"><i>Add real screenshots from the live site / local run before publishing — do not use placeholders or stock images.</i></div>
+**🏠 Homepage — Hero**
+
+<p align="center"><img src="screenshots/hero2.png" width="85%"/></p>
+<p align="center"><i>Hero section with delightful-experience tagline and top info bar</i></p>
+
 <br/>
 
-**🏠 Homepage**
+**🍝 Homepage — Alternate Hero**
 
 <p align="center"><img src="screenshots/home.png" width="85%"/></p>
-<p align="center"><i>[Add screenshot] — hero section, menu highlights</i></p>
+<p align="center"><i>"Where every flavor tells a story" hero slide</i></p>
 
 <br/>
 
-**🧑‍🍳 Our Chefs**
+**📖 Our Story**
+
+<p align="center"><img src="screenshots/story.png" width="85%"/></p>
+<p align="center"><i>About section — story, gallery collage, and "Since 1950" badge</i></p>
+
+<br/>
+
+**🍽️ We Offer Top Notch**
+
+<p align="center"><img src="screenshots/topnotch.png" width="85%"/></p>
+<p align="center"><i>Breakfast / Appetizers / Drinks category highlights</i></p>
+
+<br/>
+
+**📋 Delicious Menu**
+
+<p align="center"><img src="screenshots/menu.png" width="85%"/></p>
+<p align="center"><i>Menu preview with pricing pulled from the template's menu data</i></p>
+
+<br/>
+
+**🧑‍🍳 Our Chefs** — *built from scratch, not part of the original template*
 
 <p align="center"><img src="screenshots/chefs.png" width="85%"/></p>
-<p align="center"><i>[Add screenshot] — the section built from scratch for this project</i></p>
+<p align="center"><i>New "Meet the Team" section added on top of the existing design language</i></p>
 
 <br/>
 
-**📅 Reservation Form**
+**📅 Reservation Form — Live Submission**
 
 <p align="center"><img src="screenshots/reservation.png" width="85%"/></p>
-<p align="center"><i>[Add screenshot] — form submitting to the live Express API</i></p>
+<p align="center"><i>Reservation form successfully submitting to the Express API — "Table booked successfully!" confirmation shown</i></p>
 
 <br/>
 
-**🗄️ Stored Reservation (DB)**
+**🗄️ Stored Reservation — MongoDB Atlas**
 
 <p align="center"><img src="screenshots/db-record.png" width="85%"/></p>
-<p align="center"><i>[Add screenshot] — a real reservation document saved in MongoDB (e.g. via MongoDB Compass)</i></p>
+<p align="center"><i>The submitted reservation persisted as a real document in the <code>reservations</code> collection on Atlas — name, phone, guests, date, time, message, and status all saved correctly</i></p>
 
 <br/>
 
-> ⚠️ **Note:** the four screenshots above are placeholders. Replace each with an
-> actual screenshot from your running app before this README goes live — an
-> "audited numbers only" portfolio shouldn't ship with fake images.
+**⚓ Footer**
+
+<p align="center"><img src="screenshots/footer.png" width="85%"/></p>
+<p align="center"><i>Footer with contact details, newsletter subscribe, and social links</i></p>
 
 <br/>
 
@@ -134,7 +160,7 @@ flowchart LR
 | 🧑‍🍳 **Our Chefs** | New section built from scratch — not present in the original template |
 | 📅 **Reservation form** | Frontend form wired to the new backend (was a dead submit handler before) |
 | 🔌 **Express API** | 5 REST endpoints handling reservation create/read/update logic |
-| 🗄️ **MongoDB store** | Persists every reservation submitted through the form |
+| 🗄️ **MongoDB store** | Persists every reservation submitted through the form (verified live on Atlas) |
 
 <br/>
 
@@ -170,7 +196,7 @@ placeholder paths in the final version.)*
 |---|---|
 | **Frontend** | HTML5 · CSS3 · JavaScript |
 | **Backend** | Node.js · Express.js |
-| **Database** | MongoDB |
+| **Database** | MongoDB Atlas |
 | **API style** | REST — 5 endpoints |
 | **Base template** | [Grilli by codewithsadee](https://github.com/codewithsadee/grilli) (frontend only — backend is original work) |
 
