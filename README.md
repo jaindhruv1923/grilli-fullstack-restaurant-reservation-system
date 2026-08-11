@@ -75,28 +75,21 @@ original was missing.
 
 **🏠 Homepage — Hero**
 
-<p align="center"><img src="hero2.png" width="85%"/></p>
-<p align="center"><i>Hero section with delightful-experience tagline and top info bar</i></p>
-
-<br/>
-
-**🍝 Homepage — Alternate Hero**
-
-<p align="center"><img src="home.png" width="85%"/></p>
-<p align="center"><i>"Where every flavor tells a story" hero slide</i></p>
+<p align="center"><img src="preview_intro.png" width="85%"/></p>
+<p align="center"><i>"Where every flavor tells a story" hero slide with top nav and "Find a Table" CTA</i></p>
 
 <br/>
 
 **📖 Our Story**
 
-<p align="center"><img src="story.png" width="85%"/></p>
+<p align="center"><img src="our_story.png" width="85%"/></p>
 <p align="center"><i>About section — story, gallery collage, and "Since 1950" badge</i></p>
 
 <br/>
 
 **🍽️ We Offer Top Notch**
 
-<p align="center"><img src="topnotch.png" width="85%"/></p>
+<p align="center"><img src="what_we_offer.png" width="85%"/></p>
 <p align="center"><i>Breakfast / Appetizers / Drinks category highlights</i></p>
 
 <br/>
@@ -110,14 +103,14 @@ original was missing.
 
 **🧑‍🍳 Our Chefs** — *built from scratch, not part of the original template*
 
-<p align="center"><img src="chefs.png" width="85%"/></p>
+<p align="center"><img src="our_chefs.png" width="85%"/></p>
 <p align="center"><i>New "Meet the Team" section added on top of the existing design language</i></p>
 
 <br/>
 
 **📅 Reservation Form — Live Submission**
 
-<p align="center"><img src="reservation.png" width="85%"/></p>
+<p align="center"><img src="online_reservation.png" width="85%"/></p>
 <p align="center"><i>Reservation form successfully submitting to the Express API — "Table booked successfully!" confirmation shown</i></p>
 
 <br/>
